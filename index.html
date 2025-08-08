@@ -1,77 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Johnson H.S. – Personal Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johnson H.S.</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Georgia, serif;
+      background: #fdfdfc;
+      color: #222;
       margin: 0;
       padding: 0;
-      background: #f5f5f5;
-      color: #333;
+      line-height: 1.7;
     }
     header {
-      background: #222;
+      background: #111;
       color: white;
-      padding: 2rem;
+      padding: 4rem 2rem;
       text-align: center;
     }
-    h1 {
+    header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
-    p.tagline {
-      margin-top: 0.5rem;
+    header p {
       font-size: 1.2rem;
       color: #aaa;
+      margin-top: 0.5rem;
+    }
+    main {
+      max-width: 720px;
+      margin: auto;
+      padding: 2rem 1rem;
     }
     section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
+      margin-bottom: 3rem;
     }
     h2 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
+      color: #444;
     }
-    .substack-embed,
-    .twitter-timeline {
-      width: 100%;
+    .post, .tweet {
+      margin-bottom: 2rem;
+    }
+    .tweet {
+      padding: 1rem;
+      background: #f3f3f3;
+      border-radius: 0.5rem;
+      font-style: italic;
     }
     footer {
-      background: #222;
-      color: white;
       text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
+      padding: 2rem 1rem;
+      color: #888;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
     }
     a {
-      color: #1DA1F2;
+      color: #444;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Johnson H.S.</h1>
-    <p class="tagline">Writer, wanderer, curious mind</p>
+    <p>Writing, wandering, wondering</p>
   </header>
 
-  <section>
-    <h2>Latest from Substack</h2>
-    <iframe src="https://johnsonhs.substack.com/embed" width="100%" height="320" style="border:1px solid #ccc; border-radius: 8px;" frameborder="0" scrolling="no"></iframe>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m Johnson. I’m a writer, a feeler, a friend, a wanderer. My life has been shaped by questions: What makes someone feel safe? What gets in the way of intimacy? What do I need to feel at home in my body, in my relationships, in the world? Much of my journey has centered around my relationship with my mother, and my relationship to love, sexuality, masculinity, and truth. I write about all of it.</p>
+    </section>
 
-  <section>
-    <h2>Latest Tweets</h2>
-    <a class="twitter-timeline" data-height="500" href="https://x.com/justavagrant_?ref_src=twsrc%5Etfw">Tweets by justavagrant_</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </section>
+    <section id="looking-for">
+      <h2>What I'm Looking For</h2>
+      <p>I'm looking for co-conspirators — people who want to build the kinds of communities and experiences that feel alive and meaningful. I want to explore social architecture, host gatherings, cultivate intimacy, and deepen connection. If something I've said resonates with you, let's talk.</p>
+    </section>
+
+    <section id="offerings">
+      <h2>Offerings</h2>
+      <ul>
+        <li>1:1 sessions (emotional inquiry, embodiment, relational coaching)</li>
+        <li>Group facilitation (circling, authentic relating, men’s work)</li>
+        <li>Writing collaborations, ghostwriting, or editing on emotionally deep projects</li>
+      </ul>
+    </section>
+
+    <section id="substack">
+      <h2>Recent Essays</h2>
+      <div id="posts"></div>
+    </section>
+
+    <section id="tweets">
+      <h2>Selected Tweets</h2>
+      <div class="tweet">Laughter, crying, orgasm, and ecstasy are deeply connected, they’re different flavors of the same thing but I’m still not clear how</div>
+      <div class="tweet">Letting myself really feel and move and express anger got me really horny, is this normal</div>
+      <div class="tweet">Rather than accept and love the person in front of me, I build an image of who I want them to be... Yikes.</div>
+      <div class="tweet">Going from conflict-avoidant to confident navigating tension is a superpower</div>
+      <div class="tweet">Sex is the means, not the end. The end is connection.</div>
+      <div class="tweet">I’m finally becoming someone I respect.</div>
+      <div class="tweet">I want to collaborate with YOU on something cool — not professionally, just because it's fun and alive.</div>
+    </section>
+  </main>
 
   <footer>
-    <p>Made by Johnson H.S. &middot; <a href="https://johnsonhs.substack.com">Substack</a> &middot; <a href="https://x.com/justavagrant_">X (Twitter)</a></p>
+    Find me on <a href="https://johnsonhs.substack.com">Substack</a> and <a href="https://x.com/justavagrant_">Twitter</a>
   </footer>
+
+  <script>
+    const posts = JSON.parse(`REPLACE_ME_WITH_SUBSTACK_JSON`);
+    const container = document.getElementById('posts');
+
+    posts.slice(0, 3).forEach(post => {
+      const div = document.createElement('div');
+      div.className = 'post';
+      div.innerHTML = `
+        <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
+        <div>${post.html}</div>
+      `;
+      container.appendChild(div);
+    });
+  </script>
+
 </body>
 </html>
-
