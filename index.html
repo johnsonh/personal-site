@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Johnson H.S.</title>
+  <title>Johnson Hsieh</title>
   <style>
     body {
       font-family: Georgia, serif;
@@ -161,5 +161,35 @@
       <div class="tweet">Going from conflict-avoidant to confident navigating tension is a superpower</div>
       <div class="tweet">Sex is the means, not the end. The end is connection.</div>
       <div class="tweet">I’m finally becoming someone I respect.</div>
-      <div class="tweet">I want to collaborate with YOU on something cool — not professionally, just because it's fun and alive.</div>\n    </section>\n  </main>\n\n  <footer>\n    Find me on <a href=\"https://johnsonhs.substack.com\">Substack</a> and <a href=\"https://x.com/justavagrant_\">Twitter</a>\n  </footer>\n\n  <script>\n    const posts = JSON.parse(`REPLACE_ME_WITH_SUBSTACK_JSON`);\n    const container = document.getElementById('posts');\n\n    posts.slice(0, 3).forEach(post => {\n      const div = document.createElement('div');\n      div.className = 'post';\n      div.innerHTML = `\n        <h3><a href=\"${post.link}\" target=\"_blank\">${post.title}</a></h3>\n        <div>${post.html}</div>\n      `;\n      container.appendChild(div);\n    });\n  </script>\n\n</body>\n</html>\n```  
+      <div class="tweet">I want to collaborate with YOU on something cool — not professionally, just because it's fun and alive.</div>
+    </section>
+
+    <section id="contact">
+      <h2>📬 Contact</h2>
+      <p>If you want to reach me, the best way is email:</p>
+      <p><a href="mailto:johnsonhsieh310@gmail.com">johnsonhsieh310@gmail.com</a></p>
+      <p>Or find me on <a href="https://johnsonhs.substack.com">Substack</a> and <a href="https://x.com/justavagrant_">Twitter</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    Find me on <a href="https://johnsonhs.substack.com">Substack</a> and <a href="https://x.com/justavagrant_">Twitter</a>
+  </footer>
+
+  <script>
+    const posts = JSON.parse(`REPLACE_ME_WITH_SUBSTACK_JSON`);
+    const container = document.getElementById('posts');
+
+    posts.slice(0, 3).forEach(post => {
+      const div = document.createElement('div');
+      div.className = 'post';
+      div.innerHTML = `
+        <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
+        <div>${post.html}</div>
+      `;
+      container.appendChild(div);
+    });
+  </script>
+
 </body>
+</html>
