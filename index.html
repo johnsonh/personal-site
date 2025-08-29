@@ -36,7 +36,7 @@
     section {
       margin-bottom: 3rem;
     }
-    h2 {
+    h2, h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
       color: #444;
@@ -74,60 +74,59 @@
   </header>
 
   <main>
-    <section id="what-i-do">
-      <h2>What I Do</h2>
-      <p>I write things, cry easily, host relational spaces, and scheme up ways to feel more alive with people. My work lives in the overlap of inner work, relationships, ancestry, place, and play. I'm less of a professional, more of a person. My favorite mode is figuring things out together.</p>
+    <section id="note">
+      <p><em>This site’s text is mostly AI generated and I’m only slightly satisfied with it. It’s all true(ish) but mostly not how I would put it.</em></p>
     </section>
 
-    <section id="offerings">
-      <h2>Offerings</h2>
+    <section id="about">
+      <h2>🌀 About Me</h2>
+      <p>Since 2019 I’ve been moving around the world, chasing questions more than stability. I’ve been trying to understand what makes relationships work, what gets in the way of love, what home feels like, and how to live in a way that feels honest.</p>
+      <p>I don’t think of myself as a professional so much as a human who’s trying things out, writing about them, and inviting people along for the ride.</p>
+    </section>
+
+    <section id="roles">
+      <h3>Roles I Play</h3>
+      <p>I play a lot of roles in my life that are very important to me. By far the most important ones to me are son/family member and friend. Other important ones are:</p>
       <ul>
-        <li>Parent coaching (especially for adult children untangling things with their parents)</li>
-        <li>Relational workshops, circling, authentic relating</li>
-        <li>Co-creating emotional experiments and community gatherings</li>
-        <li>Writing projects (personal essays, ghostwriting, reflections)</li>
+        <li>Leader/organizer</li>
+        <li>Parent relationship coach</li>
+        <li>Explorer (inner, outer, relational)</li>
+        <li>Community member</li>
+        <li>Citizen</li>
+        <li>Writer</li>
+        <li>Nomad</li>
+        <li>Traveler</li>
+        <li>Hunter</li>
+        <li>Supporter</li>
+        <li>Competitor</li>
       </ul>
     </section>
 
-    <section id="taiwan-residency">
-      <h2>Taiwan Roots Residency</h2>
-      <p>Join friends for ~6 months in Taipei to reconnect with Taiwanese roots, culture, and family while building meaningful relationships.</p>
-      <p>After 5 years on the road, I’ve been craving more roots—to live somewhere long enough to host others with steadiness, offer care, and be part of something that unfolds over time. This residency is a step in that direction—and an invitation to do it together.</p>
-      <p>Hopefully by the end, you’ll feel more connected to family, to Taiwan, and to yourself—alive in your body, deeper in trust and love, and more excited about life. We'll explore ancestry, repair family dynamics, eat absurdly good food, and build something heartfelt.</p>
-      <p><strong>What:</strong> Shared living / neighborhood pods. Group dinners, relational workshops, temple visits, ancestral connections, personal projects, countryside trips.</p>
-      <p><strong>Who:</strong> People with Taiwanese roots (or resonance with the theme of return), emotional awareness, and interest in community + healing. Mandarin helpful but not required.</p>
-      <p><strong>When:</strong> 6 months in Taipei, ideally starting before Chinese New Year.</p>
-      <p><strong>Looking for:</strong> 2–3 core co-creators (housing scouts, space holders, cheerleaders). Also: guests, mentors, curious humans.</p>
-      <p>I don’t have all the logistics yet. I’m looking for the first few “yeses” to shape this together.</p>
+    <section id="offerings">
+      <h2>🎁 Offerings</h2>
+      <p>Here are some ways I like working with people:</p>
+      <ul>
+        <li><strong>Parent relationship coaching</strong> — helping adult children untangle old patterns, heal, and find new ways of relating to their parents (and themselves).</li>
+        <li><strong>Relational spaces</strong> — circling, authentic relating, workshops on conflict, intimacy, and expression.</li>
+        <li><strong>Community hosting</strong> — dinners, residencies, creating places where people can actually feel each other.</li>
+        <li><strong>Writing</strong> — personal essays</li>
+        <li><strong>Adventures</strong> — hitchhiking in Central Asia, a residency in Taiwan, a road trip</li>
+      </ul>
     </section>
 
-    <section id="substack">
-      <h2>Recent Essays</h2>
-      <div id="posts"></div>
+    <section id="questions">
+      <h2>❓ Current Questions &amp; Themes</h2>
+      <ul>
+        <li>How do I build roots after years of moving?</li>
+        <li>How do we stay honest in intimacy instead of slipping into roles?</li>
+        <li>What does it mean to belong to family, community, ancestry?</li>
+        <li>How do I become the kind of man I respect?</li>
+      </ul>
     </section>
 
-    <section id="tweets">
-      <h2>Selected Tweets</h2>
-      <div class="tweet">Laughter, crying, orgasm, and ecstasy are deeply connected, they’re different flavors of the same thing but I’m still not clear how</div>
-
-  <footer>
-    Find me on <a href="https://johnsonhs.substack.com">Substack</a> and <a href="https://x.com/justavagrant_">Twitter</a>
-  </footer>
-
-  <script>
-    const posts = JSON.parse(`REPLACE_ME_WITH_SUBSTACK_JSON`);
-    const container = document.getElementById('posts');
-
-    posts.slice(0, 3).forEach(post => {
-      const div = document.createElement('div');
-      div.className = 'post';
-      div.innerHTML = `
-        <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
-        <div>${post.html}</div>
-      `;
-      container.appendChild(div);
-    });
-  </script>
-
-</body>
-</html>
+    <section id="work">
+      <h2>✍️ My Work</h2>
+      <p>The places I share the most are:</p>
+      <ul>
+        <li><a href="https://johnsonhs.substack.com" target="_blank">Substack</a></li>
+        <li><a
