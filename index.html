@@ -16,7 +16,7 @@
     header {
       background: #111;
       color: white;
-      padding: 4rem 2rem;
+      padding: 3rem 2rem 2rem 2rem;
       text-align: center;
     }
     header h1 {
@@ -27,6 +27,12 @@
       font-size: 1.1rem;
       color: #aaa;
       margin-top: 0.5rem;
+    }
+    header img {
+      margin-top: 1.5rem;
+      max-width: 200px;
+      border-radius: 50%;
+      border: 3px solid white;
     }
     main {
       max-width: 720px;
@@ -71,6 +77,7 @@
   <header>
     <h1>Johnson H.S.</h1>
     <p>writing, relationships, and slightly chaotic clarity</p>
+    <img src="images/profile.jpg" alt="Photo of Johnson H.S.">
   </header>
 
   <main>
@@ -129,4 +136,30 @@
       <p>The places I share the most are:</p>
       <ul>
         <li><a href="https://johnsonhs.substack.com" target="_blank">Substack</a></li>
-        <li><a
+        <li><a href="https://x.com/justavagrant_" target="_blank">Twitter</a> — raw thoughts, questions, half-baked insights, tiny stories.</li>
+      </ul>
+    </section>
+
+    <section id="taiwan">
+      <h2>🌏 Taiwan Roots Residency</h2>
+      <p><strong>TL;DR:</strong> Join friends for ~6 months in Taipei to reconnect with Taiwanese roots, culture, and family while building meaningful relationships.</p>
+      <p>After 5 years on the road, I’ve been craving more roots—to live somewhere long enough to be dependable, to host others with steadiness, and to be part of something unfolding over time. Returning to Taiwan recently reminded me how much I want to be close enough to offer care, presence, and hospitality to the people I love.</p>
+      <p>This residency is a step in that direction—and an invitation to do it together.</p>
+      <p>Hopefully by the end, you’ll come away more connected to your family and to Taiwan as a place. If we’re lucky, you’ll also leave more connected to yourself—alive in your body, deeper in trust and love, and more excited about life.</p>
+    </section>
+
+    <section id="substack">
+      <h2>Recent Essays</h2>
+      <div id="posts"></div>
+    </section>
+
+    <section id="tweets">
+      <h2>Selected Tweets</h2>
+      <div class="tweet">Laughter, crying, orgasm, and ecstasy are deeply connected, they’re different flavors of the same thing but I’m still not clear how</div>
+      <div class="tweet">Letting myself really feel and move and express anger got me really horny, is this normal</div>
+      <div class="tweet">Rather than accept and love the person in front of me, I build an image of who I want them to be... Yikes.</div>
+      <div class="tweet">Going from conflict-avoidant to confident navigating tension is a superpower</div>
+      <div class="tweet">Sex is the means, not the end. The end is connection.</div>
+      <div class="tweet">I’m finally becoming someone I respect.</div>
+      <div class="tweet">I want to collaborate with YOU on something cool — not professionally, just because it's fun and alive.</div>\n    </section>\n  </main>\n\n  <footer>\n    Find me on <a href=\"https://johnsonhs.substack.com\">Substack</a> and <a href=\"https://x.com/justavagrant_\">Twitter</a>\n  </footer>\n\n  <script>\n    const posts = JSON.parse(`REPLACE_ME_WITH_SUBSTACK_JSON`);\n    const container = document.getElementById('posts');\n\n    posts.slice(0, 3).forEach(post => {\n      const div = document.createElement('div');\n      div.className = 'post';\n      div.innerHTML = `\n        <h3><a href=\"${post.link}\" target=\"_blank\">${post.title}</a></h3>\n        <div>${post.html}</div>\n      `;\n      container.appendChild(div);\n    });\n  </script>\n\n</body>\n</html>\n```  
+</body>
