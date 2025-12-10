@@ -7,7 +7,7 @@ My current tack is for this site to make me more findable - there are people tha
 ## I'm looking for you if:
 
 <details>
-<summary><strong>▸ You're exploring life after work</strong></summary>
+<summary><strong>You're exploring life after work</strong></summary>
 
 Six years ago I quit my job. I had agonized about whether or not to for a year or 2 leading up. I needed someone to tell me I wasn't crazy. I was so desperate for affirmation that I probably watched Moana a few dozen times to get a bit from a fictional story. I wish someone had told me:
 
@@ -20,7 +20,7 @@ I'm interested in meeting people that see themselves in my story, at the start, 
 </details>
 
 <details>
-<summary><strong>▸ You're interested in deeply exploring your ancestry</strong></summary>
+<summary><strong>You're interested in deeply exploring your ancestry</strong></summary>
 
 Over Chinese New Year this year, I went to pray to the ashes of my late grandfather. This time, I actually engaged earnestly with it. I imagined my grandfather saying to me:
 
@@ -37,7 +37,7 @@ I've continued down this rabbit hole and I still can't see the bottom. If this r
 </details>
 
 <details>
-<summary><strong>▸ You have or want to dramatically shift your relationship with your parents</strong></summary>
+<summary><strong>You have or want to dramatically shift your relationship with your parents</strong></summary>
 
 A few years ago, I couldn't spend more than a day or two with my mom without major conflict. I amateur-ly diagnosed her as narcissistic and had no feelings of warmth towards her - mostly resentment and disdain.
 
@@ -56,7 +56,7 @@ I've since helped friends with parent-child relationship repair and offer coachi
 </details>
 
 <details>
-<summary><strong>▸ You want to spend several months in 2026 in Taiwan</strong></summary>
+<summary><strong>You want to spend several months in 2026 in Taiwan</strong></summary>
 
 I'm heading to Taiwan for 6+ months starting December 2025 for intensive family and ancestry work. I want to actually see and understand each family member as full humans, take on real family responsibilities, and continue my work with my parents.
 
@@ -73,7 +73,7 @@ I'm getting a 3 BR place in Taipei. I'm particularly interested in people that w
 </details>
 
 <details>
-<summary><strong>▸ You were formerly in the US college greek system noticing how it's still impacting your relationships</strong></summary>
+<summary><strong>You were formerly in the US college greek system noticing how it's still impacting your relationships</strong></summary>
 
 I was in a fraternity in college and notice how that experience still impacts me today - in some ways that are beautiful and some that are a challenge. I've wanted to unpack the experience with my college buddies but for various reasons that's been hard/out of reach.
 
@@ -90,7 +90,7 @@ If you're wrestling with similar stuff from your Greek life experience, or you'r
 </details>
 
 <details>
-<summary><strong>▸ You want adventure - substantial trips with uncertainty and good spirits</strong></summary>
+<summary><strong>You want adventure - substantial trips with uncertainty and good spirits</strong></summary>
 
 I'm not into comfortable tourism, I want real adventures where you don't quite know what's going to happen. I've been sitting on a few:
 
@@ -104,7 +104,7 @@ You might be a good fit if you're comfortable with high uncertainty, can handle 
 </details>
 
 <details>
-<summary><strong>▸ You're a woman looking for a male life partner and you like what you see</strong></summary>
+<summary><strong>You're a woman looking for a male life partner and you like what you see</strong></summary>
 
 Slide into those DM's girl, I'm waiting
 
