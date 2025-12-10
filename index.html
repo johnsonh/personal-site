@@ -47,6 +47,25 @@
       margin-bottom: 1rem;
       color: #444;
     }
+    details {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background: #f9f9f9;
+      border-radius: 0.5rem;
+      border-left: 3px solid #444;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    summary:hover {
+      color: #666;
+    }
+    details[open] summary {
+      margin-bottom: 1rem;
+    }
     .post, .tweet {
       margin-bottom: 2rem;
     }
@@ -75,121 +94,101 @@
 <body>
 
   <header>
-    <h1>Johnson H.S.</h1>
-    <p>writing, relationships, and slightly chaotic clarity</p>
-    <img src="images/profile.jpg" alt="Photo of Johnson H.S.">
+    <h1>Johnson Hsieh</h1>
+    <img src="images/profile.jpg" alt="Photo of Johnson Hsieh">
   </header>
 
   <main>
-    <section id="note">
-      <p><em>This site’s text is mostly AI generated and I’m only slightly satisfied with it. It’s all true(ish) but mostly not how I would put it.</em></p>
+    <section id="intro">
+      <p>Hi!</p>
+      <p>You're on this site reading this text! As of this writing I still don't know the point of this site, so if you dropped me a line about how you found it/why, that would actually really help me.</p>
+      <p>My current tack is for this site to make me more findable - there are people that I want to meet more of, and if you're one of those people, I hope this site helps us get in contact.</p>
     </section>
 
-    <section id="about">
-      <h2>🌀 About Me</h2>
-      <p>Since 2019 I’ve been moving around the world, chasing questions more than stability. I’ve been trying to understand what makes relationships work, what gets in the way of love, what home feels like, and how to live in a way that feels honest.</p>
-      <p>I don’t think of myself as a professional so much as a human who’s trying things out, writing about them, and inviting people along for the ride.</p>
-    </section>
+    <section id="looking-for">
+      <h2>I'm looking for you if:</h2>
 
-    <section id="roles">
-      <h3>Roles I Play</h3>
-      <p>I play a lot of roles in my life that are very important to me. By far the most important ones to me are son/family member and friend. Other important ones are:</p>
-      <ul>
-        <li>Leader/organizer</li>
-        <li>Parent relationship coach</li>
-        <li>Explorer (inner, outer, relational)</li>
-        <li>Community member</li>
-        <li>Citizen</li>
-        <li>Writer</li>
-        <li>Nomad</li>
-        <li>Traveler</li>
-        <li>Hunter</li>
-        <li>Supporter</li>
-        <li>Competitor</li>
-      </ul>
-    </section>
+      <details>
+        <summary>You're exploring life after work</summary>
+        <p>Six years ago I quit my job. I had agonized about whether or not to for a year or 2 leading up. I needed someone to tell me I wasn't crazy. I was so desperate for affirmation that I probably watched Moana a few dozen times to get a bit from a fictional story. I wish someone had told me:</p>
+        <p>You're not crazy to seriously consider not working. You're not crazy to be terrified. You're not crazy to trust yourself. You're not crazy to think something's possible. You're not crazy for being dissatisfied with your life. You're not crazy for looking for ways to improve situations that seem unchangeable. You're not crazy for imagining that it's possible. You're not crazy for going in the deep end. You're not crazy for valuing your friends and family so deeply. You're not crazy to want the adventure. You're not crazy for following your own rabbit holes even if they end up hurting later.</p>
+        <p>Six years in, my life has been harder and messier than I imagined, with doubts and suffering and regrets. It's also been more glorious and wonderful and amazing and expansive than I imagined. I wouldn't choose anything else.</p>
+        <p>I'm interested in meeting people that see themselves in my story, at the start, middle, where I'm at now, or further along. I want to have and to offer companionship and encouragement in navigating post-work life.</p>
+      </details>
 
-    <section id="offerings">
-      <h2>🎁 Offerings</h2>
-      <p>Here are some ways I like working with people:</p>
-      <ul>
-        <li><strong>Parent relationship coaching</strong> — helping adult children untangle old patterns, heal, and find new ways of relating to their parents (and themselves).</li>
-        <li><strong>Relational spaces</strong> — circling, authentic relating, workshops on conflict, intimacy, and expression.</li>
-        <li><strong>Community hosting</strong> — dinners, residencies, creating places where people can actually feel each other.</li>
-        <li><strong>Writing</strong> — personal essays</li>
-        <li><strong>Adventures</strong> — hitchhiking in Central Asia, a residency in Taiwan, a road trip</li>
-      </ul>
-    </section>
+      <details>
+        <summary>You're interested in deeply exploring your ancestry</summary>
+        <p>Over Chinese New Year this year, I went to pray to the ashes of my late grandfather. This time, I actually engaged earnestly with it. I imagined my grandfather saying to me:</p>
+        <p><em>I am your grandfather. You are my grandson. We are family. I am yours, and you are mine. We belong to each other. It is written in stone. It doesn't matter that you grew up in the US.</em></p>
+        <p>Tears streamed down my face. These words have reverberated in me since that day. At that moment I started to grasp the depth and hugeness of what it means to belong to my family. My belonging to my family is my birthright.</p>
+        <p>He continued: <em>You are the oldest son. This family needs you.</em></p>
+        <p>I belong to the family, unconditionally. And that comes with responsibilities - unalienable responsibilities to care for elderly and young, to support family members, to keep this thing going.</p>
+        <p>I've continued down this rabbit hole and I still can't see the bottom. If this resonates with you and you want to follow your own rabbit hole into ancestry and belonging, I want to meet you.</p>
+      </details>
 
-    <section id="questions">
-      <h2>❓ Current Questions &amp; Themes</h2>
-      <ul>
-        <li>How do I build roots after years of moving?</li>
-        <li>How do we stay honest in intimacy instead of slipping into roles?</li>
-        <li>What does it mean to belong to family, community, ancestry?</li>
-        <li>How do I become the kind of man I respect?</li>
-      </ul>
-    </section>
+      <details>
+        <summary>You have or want to dramatically shift your relationship with your parents</summary>
+        <p>A few years ago, I couldn't spend more than a day or two with my mom without major conflict. I amateur-ly diagnosed her as narcissistic and had no feelings of warmth towards her - mostly resentment and disdain.</p>
+        <p>Then I spent 6 months doing intensive work - including 2.5 months in Taiwan having difficult conversations with her almost daily, often with therapist support. It was brutal, particularly not knowing if we'd ever come out of the hole.</p>
+        <p>We did. Today I enjoy a harmonious and loving relationship with my mom, though of course we still have our challenges. I've lived with her for months at a time and it's been sweet and enjoyable.</p>
+        <p>What I didn't expect: My harsh inner critic went down ~95% overnight. I completely stopped questioning if I was worthy of love. I've had experiences I would describe as divine. It helped me deeply connect to ancestry and purpose and place in the world.</p>
+        <p>The core realization: "all of this stuff I was convinced my whole life made me bad, wrong, shitty, and generally irredeemable - not only is that not true, but I am loved in spite of/for it." If realizing my once-hated mother is actually an angel + full forgiveness from the universe isn't grace, then I don't know what is.</p>
+        <p>I've since helped friends with parent-child relationship repair and offer coaching specifically for this work. If you want to tackle this beast, I applaud you, and I'm available to offer you coaching. If you're on the other side yourself, I'd love to compare notes and sensemake together.</p>
+        <p><strong>Full essays:</strong> <a href="https://substack.com/home/post/p-153892941" target="_blank">How I Repaired My Relationship with My Mom</a> | <a href="https://johnsonhs.substack.com/p/on-forgiveness-and-grace" target="_blank">On Forgiveness and Grace</a></p>
+      </details>
 
-    <section id="work">
-      <h2>✍️ My Work</h2>
-      <p>The places I share the most are:</p>
-      <ul>
-        <li><a href="https://johnsonhs.substack.com" target="_blank">Substack</a></li>
-        <li><a href="https://x.com/justavagrant_" target="_blank">Twitter</a> — raw thoughts, questions, half-baked insights, tiny stories.</li>
-      </ul>
-    </section>
+      <details>
+        <summary>You want to spend several months in 2026 in Taiwan</summary>
+        <p>I'm heading to Taiwan for 6+ months starting December 2025 for intensive family and ancestry work. I want to actually see and understand each family member as full humans, take on real family responsibilities, and continue my work with my parents.</p>
+        <p>I'm looking for people who:</p>
+        <ul>
+          <li>Are exploring their own Taiwanese roots or similar ancestry work</li>
+          <li>Want to start circling/authentic relating communities there</li>
+          <li>Are into things like dragon boat, qigong, BJJ, contact improv, hot pot, karaoke</li>
+          <li>Can handle emotional intensity and want mutual support</li>
+        </ul>
+        <p>I'm getting a 3 BR place in Taipei. I'm particularly interested in people that want to co-live for a month+.</p>
+        <p><strong>Full details:</strong> <a href="https://johnsonhs.substack.com/p/taiwan-2026" target="_blank">Taiwan 2026 essay</a></p>
+      </details>
 
-    <section id="taiwan">
-      <h2>🌏 Taiwan Roots Residency</h2>
-      <p><strong>TL;DR:</strong> Join friends for ~6 months in Taipei to reconnect with Taiwanese roots, culture, and family while building meaningful relationships.</p>
-      <p>After 5 years on the road, I’ve been craving more roots—to live somewhere long enough to be dependable, to host others with steadiness, and to be part of something unfolding over time. Returning to Taiwan recently reminded me how much I want to be close enough to offer care, presence, and hospitality to the people I love.</p>
-      <p>This residency is a step in that direction—and an invitation to do it together.</p>
-      <p>Hopefully by the end, you’ll come away more connected to your family and to Taiwan as a place. If we’re lucky, you’ll also leave more connected to yourself—alive in your body, deeper in trust and love, and more excited about life.</p>
-    </section>
+      <details>
+        <summary>You were formerly in the US college greek system noticing how it's still impacting your relationships</summary>
+        <p>I was in a fraternity in college and notice how that experience still impacts me today - in some ways that are beautiful and some that are a challenge. I've wanted to unpack the experience with my college buddies but for various reasons that's been hard/out of reach.</p>
+        <p>There's so much I love about that time and those relationships - the rituals, the roasting, the shenanigans, the bonds. I also trace some of my challenges to that time - relationships with women, social status, healthy interdependence.</p>
+        <p>I'd love to unpack this stuff with my guys. It could be so beautiful. I imagine us working towards a really beautiful masculinity where we support and challenge each other, build each other up, show up for each other, trust ourselves and each other. I want to direct this energy back into our fraternity and potentially into the broader American Greek system - slowly chipping away at what I perceive as a broader crisis of masculinity. I'd be honored to go there with them.</p>
+        <p>This dream is far away. Most of my brothers aren't particularly interested in this stuff. We've got issues relationally - major rifts that trace back to college. I've got guilt to atone for, beatings I deserve, trust to rebuild, accountability to take.</p>
+        <p>If you're wrestling with similar stuff from your Greek life experience, or you're further along in this work, I want to meet you.</p>
+        <p><strong>Full essays:</strong> <a href="https://johnsonhs.substack.com/p/some-dreams" target="_blank">Some Dreams</a> | <a href="https://johnsonhs.substack.com/p/a-love-letter-to-boys-trips" target="_blank">A Love Letter to Boys Trips</a></p>
+      </details>
 
-    <section id="substack">
-      <h2>Recent Essays</h2>
-      <div id="posts"></div>
-    </section>
+      <details>
+        <summary>You want adventure - substantial trips with uncertainty and good spirits</summary>
+        <p>I'm not into comfortable tourism, I want real adventures where you don't quite know what's going to happen. I've been sitting on a few:</p>
+        <ul>
+          <li>A Lord of the Rings themed journey (6 months, mostly on foot/horseback, rough it accommodation-wise, fellowship splits and rejoins fluidly)</li>
+          <li>Living nomadically in Mongolia on horseback for a few months (learning to ride and care for horses, no guide, just us and the steppe)</li>
+        </ul>
+        <p>You might be a good fit if you're comfortable with high uncertainty, can handle unfamiliar situations with grace, don't mind roughing it, and have a "fuck around and find out" orientation to life.</p>
+        <p><strong>Full details:</strong> <a href="https://johnsonhs.substack.com/p/project-2-i-want-to-do-an-involved" target="_blank">Project #2: Lord of the Rings Trip</a> | <a href="https://johnsonhs.substack.com/p/project-5-mongolia-trip-04-interested" target="_blank">Project #5: Mongolia Trip</a></p>
+      </details>
 
-    <section id="tweets">
-      <h2>Selected Tweets</h2>
-      <div class="tweet">Laughter, crying, orgasm, and ecstasy are deeply connected, they’re different flavors of the same thing but I’m still not clear how</div>
-      <div class="tweet">Letting myself really feel and move and express anger got me really horny, is this normal</div>
-      <div class="tweet">Rather than accept and love the person in front of me, I build an image of who I want them to be... Yikes.</div>
-      <div class="tweet">Going from conflict-avoidant to confident navigating tension is a superpower</div>
-      <div class="tweet">Sex is the means, not the end. The end is connection.</div>
-      <div class="tweet">I’m finally becoming someone I respect.</div>
-      <div class="tweet">I want to collaborate with YOU on something cool — not professionally, just because it's fun and alive.</div>
+      <details>
+        <summary>You're a woman looking for a male life partner and you like what you see</summary>
+        <p>Slide into those DM's girl, I'm waiting</p>
+      </details>
     </section>
 
     <section id="contact">
-      <h2>📬 Contact</h2>
-      <p>If you want to reach me, the best way is email:</p>
-      <p><a href="mailto:johnsonhsieh310@gmail.com">johnsonhsieh310@gmail.com</a></p>
-      <p>Or find me on <a href="https://johnsonhs.substack.com">Substack</a> and <a href="https://x.com/justavagrant_">Twitter</a>.</p>
+      <h2>Get in touch</h2>
+      <p><strong>Twitter:</strong> <a href="https://x.com/justavagrant_" target="_blank">@justavagrant_</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/justavagrant" target="_blank">@justavagrant</a></p>
+      <p><strong>Email:</strong> <a href="mailto:johnsonhsieh310@gmail.com">johnsonhsieh310@gmail.com</a></p>
     </section>
   </main>
 
   <footer>
-    Find me on <a href="https://johnsonhs.substack.com">Substack</a> and <a href="https://x.com/justavagrant_">Twitter</a>
+    Find me on <a href="https://johnsonhs.substack.com">Substack</a>, <a href="https://x.com/justavagrant_">Twitter</a>, and <a href="https://instagram.com/justavagrant">Instagram</a>
   </footer>
-
-  <script>
-    const posts = JSON.parse(`REPLACE_ME_WITH_SUBSTACK_JSON`);
-    const container = document.getElementById('posts');
-
-    posts.slice(0, 3).forEach(post => {
-      const div = document.createElement('div');
-      div.className = 'post';
-      div.innerHTML = `
-        <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
-        <div>${post.html}</div>
-      `;
-      container.appendChild(div);
-    });
-  </script>
 
 </body>
 </html>
