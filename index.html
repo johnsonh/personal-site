@@ -3,192 +3,233 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Johnson Hsieh</title>
+
+  <!-- Primary SEO -->
+  <title>Johnson Hsieh — Life After Work, Parent Relationship Repair, Ancestry &amp; Adventure</title>
+  <meta name="description" content="I quit my job six years ago and repaired a once-broken relationship with my mom. I offer parent-child relationship repair coaching, companionship for life after work, and partners for deep ancestry work and real adventures.">
+  <link rel="canonical" href="https://johnsonh.github.io/personal-site/">
+
+  <!-- Social share cards (Open Graph + Twitter) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Johnson Hsieh — I'm looking for you">
+  <meta property="og:description" content="Life after work, parent-child relationship repair coaching, ancestry work, Taiwan, and adventures with high uncertainty and good spirits.">
+  <meta property="og:url" content="https://johnsonh.github.io/personal-site/">
+  <meta property="og:image" content="https://johnsonh.github.io/personal-site/images/profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@justavagrant_">
+  <meta name="twitter:title" content="Johnson Hsieh — I'm looking for you">
+  <meta name="twitter:description" content="Life after work, parent-child relationship repair coaching, ancestry work, and adventures with high uncertainty and good spirits.">
+  <meta name="twitter:image" content="https://johnsonh.github.io/personal-site/images/profile.jpg">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Johnson Hsieh",
+    "url": "https://johnsonh.github.io/personal-site/",
+    "image": "https://johnsonh.github.io/personal-site/images/profile.jpg",
+    "email": "mailto:johnsonhsieh310@gmail.com",
+    "sameAs": [
+      "https://x.com/justavagrant_",
+      "https://instagram.com/justavagrant",
+      "https://johnsonhs.substack.com"
+    ],
+    "knowsAbout": [
+      "life after work",
+      "parent-child relationship repair",
+      "ancestry and family belonging",
+      "circling and authentic relating",
+      "adventure travel"
+    ],
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Parent-child relationship repair coaching",
+        "description": "One-on-one coaching for adults who want to repair their relationship with a parent."
+      }
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --ink: #1d2320;
+      --ink-soft: #4b544f;
+      --paper: #fbfaf7;
+      --jade: #17705a;
+      --jade-tint: #e7f1ed;
+      --rule: #e2ded6;
+      --max: 42rem;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
     body {
-      font-family: Georgia, serif;
-      background: #fdfdfc;
-      color: #222;
       margin: 0;
-      padding: 0;
-      line-height: 1.7;
-    }
-    header {
-      background: #111;
-      color: white;
-      padding: 3rem 2rem 2rem 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.6rem;
-    }
-    header p {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Newsreader", Georgia, serif;
       font-size: 1.1rem;
-      color: #aaa;
-      margin-top: 0.5rem;
+      line-height: 1.65;
     }
-    header img {
-      margin-top: 1.5rem;
-      max-width: 200px;
-      border-radius: 50%;
-      border: 3px solid white;
+    main, header, footer { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+    header { padding-top: 3.5rem; }
+    .profile {
+      width: 108px; height: 108px; border-radius: 50%;
+      object-fit: cover; display: block; margin-bottom: 1.25rem;
+      border: 3px solid var(--jade-tint);
     }
-    main {
-      max-width: 720px;
-      margin: auto;
-      padding: 2rem 1rem;
+    h1 {
+      font-size: 2.4rem; font-weight: 700; letter-spacing: -0.01em;
+      margin: 0 0 0.5rem;
     }
-    section {
-      margin-bottom: 3rem;
+    .kicker { color: var(--ink-soft); margin: 0 0 2rem; font-style: italic; }
+    h2 {
+      font-size: 1.15rem; font-weight: 500; color: var(--jade);
+      text-transform: uppercase; letter-spacing: 0.08em;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      margin: 3.5rem 0 0.75rem;
     }
-    h2, h3 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      color: #444;
+    h3 {
+      font-size: 1.5rem; font-weight: 700; margin: 2.75rem 0 0.75rem;
+      letter-spacing: -0.01em; scroll-margin-top: 1.5rem;
     }
-    details {
-      margin-bottom: 1rem;
-      padding: 1rem;
-      background: #f9f9f9;
-      border-radius: 0.5rem;
-      border-left: 3px solid #444;
+    a { color: var(--jade); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--jade); outline-offset: 3px; border-radius: 2px; }
+    blockquote {
+      margin: 1.5rem 0; padding: 0.25rem 0 0.25rem 1.25rem;
+      border-left: 3px solid var(--jade); font-style: italic; color: var(--ink-soft);
     }
-    summary {
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1.1rem;
-      margin-bottom: 0.5rem;
+    .you-nav {
+      background: var(--jade-tint); border-radius: 12px;
+      padding: 1.5rem 1.75rem; margin: 2.5rem 0 0;
     }
-    summary:hover {
-      color: #666;
+    .you-nav p {
+      margin: 0 0 0.75rem; font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--jade); font-weight: 600;
     }
-    details[open] summary {
-      margin-bottom: 1rem;
+    .you-nav ul { margin: 0; padding: 0; list-style: none; }
+    .you-nav li { margin: 0.45rem 0; }
+    .you-nav a { text-decoration: none; font-weight: 500; }
+    .you-nav a:hover { text-decoration: underline; }
+    .essays {
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.9rem;
+      color: var(--ink-soft); margin-top: 1rem;
     }
-    .post, .tweet {
-      margin-bottom: 2rem;
-    }
-    .tweet {
-      padding: 1rem;
-      background: #f3f3f3;
-      border-radius: 0.5rem;
-      font-style: italic;
-    }
+    ul { padding-left: 1.35rem; }
+    li { margin: 0.35rem 0; }
+    hr { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
     footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      color: #888;
-      font-size: 0.9rem;
-      border-top: 1px solid #eee;
+      padding: 2.5rem 1.25rem 4rem; color: var(--ink-soft);
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.95rem;
     }
-    a {
-      color: #444;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+    footer h2 { margin-top: 0; }
+    @media (max-width: 480px) {
+      h1 { font-size: 1.9rem; }
+      h3 { font-size: 1.3rem; }
+      body { font-size: 1.05rem; }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Johnson Hsieh</h1>
-    <img src="images/profile.jpg" alt="Photo of Johnson Hsieh">
-  </header>
+<header>
+  <img class="profile" src="images/profile.jpg" alt="Johnson Hsieh smiling" width="108" height="108">
+  <h1>Johnson Hsieh</h1>
+  <p class="kicker">Hi! You're here! Let me know how/why you found this site — it'd help me figure out what this site is for. For now, I want to be more findable by people I want to meet. If that's you, let's connect.</p>
 
-  <main>
-    <section id="intro">
-      <p>Hi! You're here!</p>
-      <p>Let me know how/why you found this site - it'd help me figure out what this site is for.</p>
-      <p>For now, I want to be more findable by people I want to meet. If that's you, let's connect</p>
-    </section>
+  <nav class="you-nav" aria-label="Who I'm looking for">
+    <p>I'm looking for you if…</p>
+    <ul>
+      <li><a href="#life-after-work">You're exploring life after work</a></li>
+      <li><a href="#ancestry">You're deeply exploring your ancestry</a></li>
+      <li><a href="#parent-repair">You want to repair your relationship with your parents</a></li>
+      <li><a href="#taiwan">You want to spend several months in Taiwan</a></li>
+      <li><a href="#greek-life">You're unpacking your Greek life experience</a></li>
+      <li><a href="#adventure">You want real adventure</a></li>
+      <li><a href="#partner">You're a woman looking for a male life partner</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <section id="looking-for">
-      <h2>I'm looking for you if:</h2>
+<main>
+  <h2>I'm looking for you if:</h2>
 
-      <details>
-        <summary>You're exploring life after work</summary>
-        <p>Six years ago I quit my job. I had agonized about whether or not to for a year or 2 leading up. I needed someone to tell me I wasn't crazy. I was so desperate for affirmation that I watched Moana a few dozen times for some scraps. I wish someone had told me:</p>
-        <p>You're not crazy to seriously consider not working. You're not crazy to be terrified. You're not crazy to trust yourself. You're not crazy to think something's possible. You're not crazy for being dissatisfied with your life. You're not crazy for looking for ways to improve situations that seem unchangeable. You're not crazy for imagining that it's possible. You're not crazy for going in the deep end. You're not crazy for valuing your friends and family so deeply. You're not crazy to want the adventure. You're not crazy for following your own rabbit holes even if they end up hurting later.</p>
-        <p>Six years in, my life has been harder and messier than I imagined, with doubts and suffering and regrets. It's been glorious and wonderful and amazing and expansive and has taken me all around the world, inner and outer. I wouldn't choose anything else.</p>
-        <p>I'm interested in meeting people that see themselves in my story, at the start, middle, where I'm at now, or further along. I want to have and to offer companionship and encouragement in navigating post-work life.</p>
-      </details>
+  <h3 id="life-after-work">You're exploring life after work</h3>
+  <p>Six years ago I quit my job. I had agonized about whether or not to for a year or 2 leading up. I needed someone to tell me I wasn't crazy. I was so desperate for affirmation that I watched Moana a few dozen times for some scraps. I wish someone had told me:</p>
+  <p>You're not crazy to seriously consider not working. You're not crazy to be terrified. You're not crazy to trust yourself. You're not crazy to think something's possible. You're not crazy for being dissatisfied with your life. You're not crazy for looking for ways to improve situations that seem unchangeable. You're not crazy for imagining that it's possible. You're not crazy for going in the deep end. You're not crazy for valuing your friends and family so deeply. You're not crazy to want the adventure. You're not crazy for following your own rabbit holes even if they end up hurting later.</p>
+  <p>Six years in, my life has been harder and messier than I imagined, with doubts and suffering and regrets. It's been glorious and wonderful and amazing and expansive and has taken me all around the world, inner and outer. I wouldn't choose anything else.</p>
+  <p>I'm interested in meeting people that see themselves in my story, at the start, middle, where I'm at now, or further along. I want to have and to offer companionship and encouragement in navigating post-work life.</p>
 
-      <details>
-        <summary>You're interested in deeply exploring your ancestry</summary>
-        <p>Over Chinese New Year this year, I went to pray to the ashes of my late grandfather. This time, I actually engaged earnestly with it. I imagined my grandfather saying to me:</p>
-        <p><em>I am your grandfather. You are my grandson. We are family. I am yours, and you are mine. We belong to each other. It is written in stone. It doesn't matter that you grew up in the US.</em></p>
-        <p>Tears streamed down my face. These words have reverberated in me since that day. At that moment I started to grasp the depth and hugeness of what it means to belong to my family. My belonging to my family is my birthright.</p>
-        <p>He continued: <em>You are the oldest son. This family needs you.</em></p>
-        <p>I belong to the family, unconditionally. And that comes with responsibilities - the family has elderly and young that need care, to support that members need, and more.</p>
-        <p>I've taken a few more steps down this rabbit hole and I still can't see the bottom. If this resonates with you and you want to follow your own rabbit hole into ancestry and belonging, I want to meet you.</p>
-      </details>
+  <h3 id="ancestry">You're interested in deeply exploring your ancestry</h3>
+  <p>Over Chinese New Year this year, I went to pray to the ashes of my late grandfather. This time, I actually engaged earnestly with it. I imagined my grandfather saying to me:</p>
+  <blockquote>I am your grandfather. You are my grandson. We are family. I am yours, and you are mine. We belong to each other. It is written in stone. It doesn't matter that you grew up in the US.</blockquote>
+  <p>Tears streamed down my face. These words have reverberated in me since that day. At that moment I started to grasp the depth and hugeness of what it means to belong to my family. My belonging to my family is my birthright.</p>
+  <p>He continued: <em>You are the oldest son. This family needs you.</em></p>
+  <p>I belong to the family, unconditionally. And that comes with responsibilities - the family has elderly and young that need care, to support that members need, and more.</p>
+  <p>I've taken a few more steps down this rabbit hole and I still can't see the bottom. If this resonates with you and you want to follow your own rabbit hole into ancestry and belonging, I want to meet you.</p>
 
-      <details>
-        <summary>You have or want to dramatically shift your relationship with your parents</summary>
-        <p>A few years ago, I couldn't spend more than a day or two with my mom without major conflict. I amateur-ly diagnosed her as narcissistic and had no feelings of warmth towards her - mostly resentment and disdain.</p>
-        <p>Then I spent 6 months doing intensive work - including 2.5 months in Taiwan having difficult conversations with her almost daily, often with therapist support. It was brutal, particularly not knowing if we'd ever come out of the hole.</p>
-        <p>We did. Today I enjoy a harmonious and loving relationship with my mom, though of course we still have our challenges. I've lived with her for months at a time and it's been sweet and enjoyable.</p>
-        <p>What I didn't expect: My harsh inner critic went down ~95% overnight. I completely stopped questioning if I was worthy of love. I've had experiences I would describe as divine. It helped me deeply connect to ancestry and purpose and place in the world.</p>
-        <p>The core realization: "all of this stuff I was convinced my whole life made me bad, wrong, shitty, and generally irredeemable - not only is that not true, but I am loved in spite of/for it." If realizing my once-hated mother is actually an angel + full forgiveness from the universe isn't grace, then I don't know what is.</p>
-        <p>I've since helped friends with parent-child relationship repair and offer coaching specifically for this work. If you want to tackle this beast, I applaud you, and I'm available to offer you coaching. If you're on the other side yourself, I'd love to compare notes and sensemake together.</p>
-        <p><strong>Full essays:</strong> <a href="https://substack.com/home/post/p-153892941" target="_blank">How I Repaired My Relationship with My Mom</a> | <a href="https://johnsonhs.substack.com/p/on-forgiveness-and-grace" target="_blank">On Forgiveness and Grace</a></p>
-      </details>
+  <h3 id="parent-repair">You have or want to dramatically shift your relationship with your parents</h3>
+  <p>A few years ago, I couldn't spend more than a day or two with my mom without major conflict. I amateur-ly diagnosed her as narcissistic and had no feelings of warmth towards her - mostly resentment and disdain.</p>
+  <p>Then I spent 6 months doing intensive work - including 2.5 months in Taiwan having difficult conversations with her almost daily, often with therapist support. It was brutal, particularly not knowing if we'd ever come out of the hole.</p>
+  <p>We did. Today I enjoy a harmonious and loving relationship with my mom, though of course we still have our challenges. I've lived with her for months at a time and it's been sweet and enjoyable.</p>
+  <p>What I didn't expect: My harsh inner critic went down ~95% overnight. I completely stopped questioning if I was worthy of love. I've had experiences I would describe as divine. It helped me deeply connect to ancestry and purpose and place in the world.</p>
+  <p>The core realization: "all of this stuff I was convinced my whole life made me bad, wrong, shitty, and generally irredeemable - not only is that not true, but I am loved in spite of/for it." If realizing my once-hated mother is actually an angel + full forgiveness from the universe isn't grace, then I don't know what is.</p>
+  <p>I've since helped friends with parent-child relationship repair and offer coaching specifically for this work. If you want to tackle this beast, I applaud you, and I'm available to offer you coaching. If you're on the other side yourself, I'd love to compare notes and sensemake together.</p>
+  <p class="essays"><strong>Full essays:</strong> <a href="https://substack.com/home/post/p-153892941">How I Repaired My Relationship with My Mom</a> · <a href="https://johnsonhs.substack.com/p/on-forgiveness-and-grace">On Forgiveness and Grace</a></p>
 
-      <details>
-        <summary>You want to spend several months in 2026 in Taiwan</summary>
-        <p>I'm heading to Taiwan for 6+ months starting December 2025 for intensive family and ancestry work. I want to form meaningful 1:1 relationships with each of my family members, take on real family responsibilities, and continue my work with my parents.</p>
-        <p>I'm looking for people who:</p>
-        <ul>
-          <li>Are exploring their own Taiwanese roots or similar ancestry work</li>
-          <li>Want to start circling/authentic relating communities there</li>
-          <li>Are into things like dragon boat, qigong, BJJ, contact improv, hot pot, karaoke</li>
-          <li>Can handle emotional intensity and want mutual support</li>
-        </ul>
-        <p>I'm getting a 3 BR place in Taipei. I'm particularly interested in people that want to co-live for a month+.</p>
-        <p><strong>Full details:</strong> <a href="https://johnsonhs.substack.com/p/taiwan-2026" target="_blank">Taiwan 2026 essay</a></p>
-      </details>
+  <h3 id="taiwan">You want to spend several months in 2026 in Taiwan</h3>
+  <p>I'm heading to Taiwan for 6+ months starting December 2025 for intensive family and ancestry work. I want to form meaningful 1:1 relationships with each of my family members, take on real family responsibilities, and continue my work with my parents.</p>
+  <p>I'm looking for people who:</p>
+  <ul>
+    <li>Are exploring their own Taiwanese roots or similar ancestry work</li>
+    <li>Want to start circling/authentic relating communities there</li>
+    <li>Are into things like dragon boat, qigong, BJJ, contact improv, hot pot, karaoke</li>
+    <li>Can handle emotional intensity and want mutual support</li>
+  </ul>
+  <p>I'm getting a 3 BR place in Taipei. I'm particularly interested in people that want to co-live for a month+.</p>
+  <p class="essays"><strong>Full details:</strong> <a href="https://johnsonhs.substack.com/p/taiwan-2026">Taiwan 2026 essay</a></p>
 
-      <details>
-        <summary>You were formerly in the US college greek system noticing how it's still impacting your relationships</summary>
-        <p>I was in a fraternity in college and notice how that experience still impacts me today. There's so much I love about that time and those relationships - the rituals, the roasting, the shenanigans, the bonds. I also trace some of my challenges to that time - relationships with women, social status, healthy interdependence.</p>
-        <p>I'd love to unpack this stuff with my guys. It could be so beautiful. I imagine us working towards a really beautiful masculinity where we support and challenge each other, build each other up, show up for each other, trust ourselves and each other. I want to direct this energy back into our fraternity and potentially into the broader American Greek system - slowly chipping away at what I perceive as a broader crisis of masculinity. I'd be honored to go there with them.</p>
-        <p>This dream is far away. Most of my brothers aren't particularly interested in this stuff. We've got issues relationally - major rifts that trace back to college. I've got guilt to atone for, beatings I deserve, trust to rebuild, accountability to take.</p>
-        <p>If you're wrestling with similar stuff from your Greek life experience, or you're further along in this work, I want to meet you.</p>
-        <p><strong>Full essays:</strong> <a href="https://johnsonhs.substack.com/p/some-dreams" target="_blank">Some Dreams</a> | <a href="https://johnsonhs.substack.com/p/a-love-letter-to-boys-trips" target="_blank">A Love Letter to Boys Trips</a></p>
-      </details>
+  <h3 id="greek-life">You were formerly in the US college Greek system noticing how it's still impacting your relationships</h3>
+  <p>I was in a fraternity in college and notice how that experience still impacts me today. There's so much I love about that time and those relationships - the rituals, the roasting, the shenanigans, the bonds. I also trace some of my challenges to that time - relationships with women, social status, healthy interdependence.</p>
+  <p>I'd love to unpack this stuff with my guys. It could be so beautiful. I imagine us working towards a really beautiful masculinity where we support and challenge each other, build each other up, show up for each other, trust ourselves and each other. I want to direct this energy back into our fraternity and potentially into the broader American Greek system - slowly chipping away at what I perceive as a broader crisis of masculinity. I'd be honored to go there with them.</p>
+  <p>This dream is far away. Most of my brothers aren't particularly interested in this stuff. We've got issues relationally - major rifts that trace back to college. I've got guilt to atone for, beatings I deserve, trust to rebuild, accountability to take.</p>
+  <p>If you're wrestling with similar stuff from your Greek life experience, or you're further along in this work, I want to meet you.</p>
+  <p class="essays"><strong>Full essays:</strong> <a href="https://johnsonhs.substack.com/p/some-dreams">Some Dreams</a> · <a href="https://johnsonhs.substack.com/p/a-love-letter-to-boys-trips">A Love Letter to Boys Trips</a></p>
 
-      <details>
-        <summary>You want adventure - substantial trips with uncertainty and good spirits</summary>
-        <p>I'm not into comfortable tourism, I want adventures with ample suprise, delight, chagrin, "what the fuck", triumph. I've been sitting on a few:</p>
-        <ul>
-          <li>A Lord of the Rings themed journey (6 months, mostly on foot/horseback, rough it accommodation-wise, fellowship splits and rejoins fluidly)</li>
-          <li>Living nomadically in Mongolia on horseback for a few months (learning to ride and care for horses, no guide, just us and the steppe)</li>
-          <li>Sailing around the world (or at least across an ocean). I want to spend a few months hitchhiking on boats learning to sail and going on journeys</li>
-        </ul>
-        <p>You might be a good fit if you're comfortable with high uncertainty, can handle unfamiliar situations with grace, don't mind roughing it, and have a "fuck around and find out" orientation to life.</p>
-        <p><strong>Full details:</strong> <a href="https://johnsonhs.substack.com/p/project-2-i-want-to-do-an-involved" target="_blank">Project #2: Lord of the Rings Trip</a> | <a href="https://johnsonhs.substack.com/p/project-5-mongolia-trip-04-interested" target="_blank">Project #5: Mongolia Trip</a></p>
-      </details>
+  <h3 id="adventure">You want adventure — substantial trips with uncertainty and good spirits</h3>
+  <p>I'm not into comfortable tourism, I want adventures with ample surprise, delight, chagrin, "what the fuck", triumph. I've been sitting on a few:</p>
+  <ul>
+    <li>A Lord of the Rings themed journey (6 months, mostly on foot/horseback, rough it accommodation-wise, fellowship splits and rejoins fluidly)</li>
+    <li>Living nomadically in Mongolia on horseback for a few months (learning to ride and care for horses, no guide, just us and the steppe)</li>
+    <li>Sailing around the world (or at least across an ocean). I want to spend a few months hitchhiking on boats learning to sail and going on journeys</li>
+  </ul>
+  <p>You might be a good fit if you're comfortable with high uncertainty, can handle unfamiliar situations with grace, don't mind roughing it, and have a "fuck around and find out" orientation to life.</p>
+  <p class="essays"><strong>Full details:</strong> <a href="https://johnsonhs.substack.com/p/project-2-i-want-to-do-an-involved">Project #2: Lord of the Rings Trip</a> · <a href="https://johnsonhs.substack.com/p/project-5-mongolia-trip-04-interested">Project #5: Mongolia Trip</a></p>
 
-      <details>
-        <summary>You're a woman looking for a male life partner and you like what you see</summary>
-        <p>Slide into those DM's girl, wucha waiting for?</p>
-      </details>
-    </section>
+  <h3 id="partner">You're a woman looking for a male life partner and you like what you see</h3>
+  <p>Slide into those DM's girl, wucha waiting for?</p>
+</main>
 
-    <section id="contact">
-      <h2>Get in touch</h2>
-      <p><strong>Twitter:</strong> <a href="https://x.com/justavagrant_" target="_blank">@justavagrant_</a></p>
-      <p><strong>Instagram:</strong> <a href="https://instagram.com/justavagrant" target="_blank">@justavagrant</a></p>
-      <p><strong>Email:</strong> <a href="mailto:johnsonhsieh310@gmail.com">johnsonhsieh310@gmail.com</a></p>
-    </section>
-  </main>
+<hr>
 
-  <footer>
-    Find me on <a href="https://johnsonhs.substack.com">Substack</a>, <a href="https://x.com/justavagrant_">Twitter</a>, and <a href="https://instagram.com/justavagrant">Instagram</a>
-  </footer>
+<footer id="contact">
+  <h2>Get in touch</h2>
+  <p>
+    <strong>Twitter:</strong> <a href="https://x.com/justavagrant_">@justavagrant_</a><br>
+    <strong>Instagram:</strong> <a href="https://instagram.com/justavagrant">@justavagrant</a><br>
+    <strong>Email:</strong> <a href="mailto:johnsonhsieh310@gmail.com">johnsonhsieh310@gmail.com</a>
+  </p>
+  <p>Essays live on my <a href="https://johnsonhs.substack.com">Substack</a>.</p>
+</footer>
 
 </body>
 </html>
